@@ -33,3 +33,11 @@ WHEREの部分には比較演算子が使えるが，等しくないことを表
 
 DISTINCT句を使う。  
 ``SELECT DISTINCT a FROM b WHERE c LIKE `hoge%` ``
+
+
+## 表と表を結合する
+
+`SELECT * FROM 受注表,顧客表 WHERE 受注表.顧客コード =  顧客表.顧客コード`
+
+表名.列名の間にあるピリオドは，所属を表している。  
+この場合は受注表の
