@@ -29,3 +29,5 @@ DBMSとは`Data Base Management System`の略であり，データベースを�
 正規化について: [正規化の要点を理解する](https://qiita.com/mochichoco/items/2904384b2856db2bf46c)
 
 >正規化の最大の目的はDB上で扱うデータの重複を排除し、「矛盾」の発生を「設計レベル」で防ぐこと
+
+詳しくは別記事
