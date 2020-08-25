@@ -29,7 +29,7 @@ WHEREの部分には比較演算子が使えるが，等しくないことを表
 - `_`　→　任意の一文字
 
 
-##　同一データを重複させずに抽出する
+## 同一データを重複させずに抽出する
 
 DISTINCT句を使う。  
 ``SELECT DISTINCT a FROM b WHERE c LIKE `hoge%` ``
