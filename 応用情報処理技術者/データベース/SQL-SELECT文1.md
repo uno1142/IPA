@@ -44,4 +44,6 @@ DISTINCT句を使う。
 
 ## データを整列させる
 
+`ORDER BY ~ ASC(or DESC)`  
 
+progateでSQL触ってきました。ここまではだいたい大丈夫。
