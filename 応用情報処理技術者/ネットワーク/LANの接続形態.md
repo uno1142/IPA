@@ -22,3 +22,15 @@ LANを構築する際に、各コンピュータをどのようにつなぐか�
 ## まとめ
 
 バスは10だけ、スターは10,100,1000がある
+
+
+## CSMA/CD方式
+
+イーサネットはアクセス制御方式としてCSMA/CD方式を採用している。  
+CSMA → Carrier Sense Multiple Access  
+CD → Collision Detection  
+
+CSMA/CD方式では、ネットワーク上の通信状況を監視して、ほかに送信を行っているものがいない場合に限ってデータの送信を開始する。(Carrier Sense)  
+それでも同時に送信してしまい、通信パケットの衝突(Collision)が発生した場合は、各々ランダムに求めた時間分待機してから、再度送信を行う。(Collision Detection)  
+このように通信を行うことで、一本のケーブルを複数のコンピュータで共有することができ(Multipule Access)  
+
